@@ -45,7 +45,7 @@ Use the following resources to help you find the Active Record query methods tha
 ### Migration
 
 * Create a `db` folder with a `migrate` folder within it, and then a file in the `db/migrate` folder called `001_create_shows.rb`. In this file, write the migration code to create a shows table. The table should have name, network, day, and rating columns. Name, network and day have a datatype of string and rating has a datatype of integer. 
-* Create a `app` folder with `models` folder within it, and the create a file, `show.rb`, in `app/models`. In this file you will define a `Show` class that inherits from Active Record Base. 
+* Create a `app` folder with `models` folder within it, and then create a file, `show.rb`, in `app/models`. In this file you will define a `Show` class that inherits from Active Record Base. 
 * Now we need to create a second migration to add another column to our shows table. In the `db/migrate` folder, create another file, `002_add_season_to_shows.rb` and write a migration to add a column, season, to the shows table. The datatype of this column is string.  
 
 ### Methods
@@ -60,3 +60,5 @@ You'll be defining the following methods:
 * `#popular_shows`: returns an array of all of the shows that have a rating greater than `5`. *hint:* use the `#where` method Active Record method. 
 * `#shows_by_alphabetical_order`: returns an array of all of the shows sorted by alphabetical order according to their names. *hint:* use the `#order` Active Record method.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-tvshow' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/activerecord-tvshow'>Advanced Finding Lab</a> on Learn.co and start learning to code for free.</p>
