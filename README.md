@@ -97,3 +97,5 @@ You'll be defining the following methods:
 - `shows_by_alphabetical_order`: returns an array of all of the shows sorted by
   alphabetical order according to their names. _hint_: use the `order` Active
   Record method.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/activerecord-tvshow'>Advanced Finding Lab</a> on Learn.co and start learning to code for free.</p>
